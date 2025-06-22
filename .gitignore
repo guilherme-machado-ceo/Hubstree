@@ -1,0 +1,103 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.cache/
+
+# Next.js build output
+.next/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.sqlite3
+*.db
+*.egg-info/
+dist/
+build/
+*.egg
+.env/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Visual Studio Code
+.vscode/
+
+# Python virtual environments
+venv/
+env/
+
+# Data outputs (geral)
+outputs/
+data/processed/
+data/interim/
+data/raw/
+
+# Pipelines e caches
+*.sqlite3
+.cache/
+__pycache__/
+
+# Model files (pesados, salvar em storage separado)
+models/
+
+# Coverage reports
+coverage/
+*.cover
+*.coverage
+*.coverage.*
+
+# Test outputs
+test-results/
+
+# Logs do sistema
+*.log
+
+# Sistema operacional e editor
+Thumbs.db
+*.swp
+*~
+
+# GitHub Actions cache (se usar)
+.github/actions/cache/
+
+# ESLint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
